@@ -41,7 +41,10 @@ nav a {
 nav a:hover {
 	color: #BACDB0;
 }
-
+.ref-links{
+	color: #F3E8EE;
+	text-decoration: none;
+}
 .header {
 	padding: 80px 20px;
 	background-image: url("../images/purplerose.jpeg");
@@ -66,9 +69,10 @@ nav a:hover {
 	display: block;
 	margin: 10px auto;
 	border: 5px solid #F3E8EE;
-	
+
 
 }
+
 
 
 
@@ -82,6 +86,9 @@ nav a:hover {
 	text-align: center;
 }
 
+.left-text{
+	text-align: left;
+}
 
 
 
