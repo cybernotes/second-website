@@ -40,3 +40,34 @@ nav a:hover {
 	color: #F3E8EE;
 	text-align: center;
 }
+
+.main-content {
+	background-color: #BACDB0;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid #260F26;
+	font-size: 20px;
+	color: #260F26;
+}
+h2 {
+	text-align: center;
+}
+.half-img {
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+	border: 5px solid #F3E8EE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
