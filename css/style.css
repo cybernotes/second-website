@@ -28,7 +28,7 @@ nav ul {
 
 nav li	{
 	float: left;
-	width: 33.33%;
+	width: 25%;
 	text-align: center;
 	border: 2px solid #260F26;
 }
@@ -72,10 +72,41 @@ nav a:hover {
 
 
 }
+label {
+	display: block;
+}
 
+.input-changes {
+		outline: none;
+		font-size: 40px;
+		width: 100%;
+		padding: 15px 25px;
+		margin: 10px 0;
+		box-sizing: border-box;
+		background-color: #F3E8EE;
+		border: 4px solid #A06B9A;
+		color:#260F26;
 
-
-
+}
+button {
+	background-color: #598392;
+	font-size: 30px;
+	color: #F3E8EE;
+	padding: 15px 30px;
+	text-decoration: none;
+	margin: 3px 2px;
+	cursor: pointer;
+	width: 25%;
+}
+label {
+	font-size:30px;
+}
+.grid-img{
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+	border: 5px solid #F3E8EE;
+}
 
 
 /* These are utility classes
