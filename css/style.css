@@ -53,7 +53,11 @@ nav a:hover {
 	color: #F3E8EE;
 	text-align: center;
 }
-
+.main-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .main-content {
 	background-color: #BACDB0;
 	padding: 20px;
@@ -65,7 +69,7 @@ nav a:hover {
 }
 
 .half-img {
-	width: 50%;
+	width: 25%;
 	display: block;
 	margin: 10px auto;
 	border: 5px solid #F3E8EE;
@@ -102,10 +106,53 @@ label {
 	font-size:30px;
 }
 .grid-img{
-	width: 50%;
+	background-color: #BACDB0;
+	width: 48%;
 	display: block;
-	margin: 10px auto;
+	float: left;
+	padding: 10px;
+	margin: 1%;
 	border: 5px solid #F3E8EE;
+}
+input[type='radio'] {
+    transform: scale(2);
+    /*float: left;*/
+    /*margin: 30px 0px;*/
+  	/*line-height: 30px;*/
+  	display: inline-block;
+  	margin-right: 20px;
+  	
+}
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #F3E8EE;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #A06B9A;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+}
+
+.big-label {
+	line-height: 60px;
 }
 
 
